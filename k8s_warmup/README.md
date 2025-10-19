@@ -1,9 +1,7 @@
 ## K8s warm-up (quick start)
 
-Replace `YOUR_DOCKERHUB_USERNAME` and run:
-
 ```bash
-export DOCKER_USER=YOUR_DOCKERHUB_USERNAME
+export DOCKER_USER=coyigbo
 
 # Build + local test
 docker build -t $DOCKER_USER/k8s-warmup:dev .
